@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "nodemon index ",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1"
   }
 }
